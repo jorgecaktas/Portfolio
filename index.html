@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <header>
+        <nav class="navegacion-header">
+            <a href="#hola" class="nav-elemento">Hola</a>
+            <a href="#conocimientos" class="nav-elemento">Conocimientos</a>
+            <a href="#proyectos" class="nav-elemento">Proyectos</a>
+            <a href="#contacto" class="nav-elemento">Contacto</a>
+        </nav>
+        <ul class="menu">
+            <li>
+              <a href="#"><span class="material-symbols-outlined">menu</span></a>
+              <ul class="submenu">
+                <li><a href="#hola" class="nav-submenu-elemento">Hola</a></li>
+                <li><a href="#conocimientos" class="nav-submenu-elemento">Conocimientos</a></li>
+                <li><a href="#proyectos" class="nav-submenu-elemento">Proyectos</a></li>
+                <li><a href="#contacto" class="nav-submenu-elemento">Contacto</a></li>
+              </ul>
+            </li>
+          </ul>
+    </header>
+
+    <main>
+        <section class="seccion-hola" id="hola">
+
+            <div class="foto-contenedor">
+                <img src="./portrait-white-man.jpg" alt="foto" class="foto">
+            </div>
+
+            <div class="texto-contenedor" id="descripcion">
+                <p>Soy Jorge Caktas y me especializo en diseño de sitios web para pequeñas empresas. Si bien resido en Austin, Texas, ayudo a diseñar sitios web para personas en todo el mundo</p>
+            </div>
+
+        </section>
+
+        <section class="seccion-conocimientos" id="conocimientos">
+
+            <h2 class="conocimientos-titulo">Conocimientos</h2>
+
+            <div class="conocimientos-contenedor">
+                <div class="conocimiento-texto-contenedor">
+                    <p><span class="conocimiento-titulo">HTML</span><br>Es el estándar que se ha impuesto en la visualización de páginas web y es el que todos los navegadores actuales han adoptado.</p>
+                </div>
+
+                <div class="conocimiento-texto-contenedor" id="conocimiento-centro">
+                    <p><span class="conocimiento-titulo">CSS</span><br>Es una tecnología usada por muchos sitios web para crear páginas visualmente atractivas, interfaces de usuario para aplicaciones web y GUIs para muchas aplicaciones móviles.</p>
+                </div>
+
+                <div class="conocimiento-texto-contenedor">
+                    <p><span class="conocimiento-titulo">JavaScript</span><br>Se utiliza principalmente del lado del cliente, implementado como parte de un navegador web permitiendo mejoras en la interfaz de usuario y páginas web dinámicas y JavaScript del lado del servidor. Su uso en aplicaciones externas a la web, por ejemplo en documentos PDF, aplicaciones de escritorio (mayoritariamente widgets) es también significativo.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion-proyectos" id="proyectos">
+            
+            <h2>Proyectos</h2>
+
+            <div class="proyectos-contenedor">
+                <div class="proyecto-individual">
+                    <h3 class="proyecto-titulo">Proyecto 1</h3>
+                    <img src="./proyecto1.png" alt="proyecto 1" class="proyecto-imagen">
+                </div>
+                <div class="proyecto-individual">
+                    <h3 class="proyecto-titulo">Proyecto 2</h3>
+                    <img src="./proyecto2.png" alt="proyecto 2" class="proyecto-imagen">
+                </div>
+                <div class="proyecto-individual">
+                    <h3 class="proyecto-titulo">Proyecto 3</h3>
+                    <img src="./proyecto3.png" alt="proyecto 3" class="proyecto-imagen">
+                </div>
+                <div class="proyecto-individual">
+                    <h3 class="proyecto-titulo">Proyecto 4</h3>
+                    <img src="./proyecto4.png" alt="proyecto 4" class="proyecto-imagen">
+                </div>
+                <div class="proyecto-individual">
+                    <h3 class="proyecto-titulo">Proyecto 5</h3>
+                    <img src="./proyecto5.png" alt="proyecto 5" class="proyecto-imagen">
+                </div>
+                <div class="proyecto-individual">
+                    <h3 class="proyecto-titulo">Proyecto 6</h3>
+                    <img src="./proyecto6.png" alt="proyecto 6" class="proyecto-imagen">
+                </div>
+            </div>
+
+        </section>
+
+        <section class="seccion-contacto" id="contacto">
+            <div class="contacto-contenedor">
+                <div class="contacto-descripcion">
+                    <p>Gracias por contactarme, espero que hayas encontrado lo que buscabas! Si no, puede usar los medios de contacto a continuacion.</p>
+                </div>
+                <div class="contacto-datos">
+                    <h2>Contacto</h2>
+                    <div class="contacto-redes">
+                        <ul class="lista">
+                            <li>Telefono: +541112341234</li>
+                            <li>Mail: mail@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <nav class="navegacion-footer">
+            <a href="#hola" class="nav-elemento">Hola</a>
+            <a href="#conocimientos" class="nav-elemento">Conocimientos</a>
+            <a href="#proyectos" class="nav-elemento">Proyectos</a>
+            <a href="#contacto" class="nav-elemento">Contacto</a>
+        </nav>
+        <nav class="footer-mail-contenedor">
+            <div class="footer-mail">
+                <a href="mailto:mail@gmail.com"><span class="material-icons">email</span></a>
+            </div>
+        </nav>
+        <p>Hecho por Jorge Caktas</p>
+    </footer>
+</body>
+</html>
